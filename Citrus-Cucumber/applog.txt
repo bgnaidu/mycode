@@ -1,0 +1,4 @@
+INFO    2018-08-06 23:39:04,326 [main] Sample.Citrus_Cucumber.PropertiesFileLog4jExample  - this is a information log message
+WARN    2018-08-06 23:39:04,327 [main] Sample.Citrus_Cucumber.PropertiesFileLog4jExample  - this is a warning log message
+INFO    2018-08-07 00:17:59,454 [main] Sample.Citrus_Cucumber.PropertiesFileLog4jExample  - this is a information log message
+WARN    2018-08-07 00:17:59,455 [main] Sample.Citrus_Cucumber.PropertiesFileLog4jExample  - this is a warning log message

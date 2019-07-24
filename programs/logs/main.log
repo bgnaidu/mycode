@@ -1,0 +1,3 @@
+2018-11-16 18:28:40,599 +0530 [main] DEBUG (XMLComparator.java:65) - [Expected text value '9843267462' but was '98432674uuhkuj' - comparing <phone ...>9843267462</phone> at /employees[1]/employee[1]/phone[1]/text()[1] to <phone ...>98432674uuhkuj</phone> at /employees[1]/employee[1]/phone[1]/text()[1]]
+2018-11-16 18:31:23,905 +0530 [main] DEBUG (XMLComparator.java:72) - [Expected text value '9843267462' but was '98432674uuhkuj' - comparing <phone ...>9843267462</phone> at /employees[1]/employee[1]/phone[1]/text()[1] to <phone ...>98432674uuhkuj</phone> at /employees[1]/employee[1]/phone[1]/text()[1]]
+2018-11-16 18:31:23,907 +0530 [main] ERROR (XMLComparator.java:52) - java.lang.ClassCastException: org.custommonkey.xmlunit.Difference cannot be cast to java.lang.String

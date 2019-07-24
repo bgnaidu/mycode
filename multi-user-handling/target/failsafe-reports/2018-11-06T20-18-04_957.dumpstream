@@ -1,0 +1,21 @@
+# Created on 2018-11-06T20:18:04.973
+java.lang.NullPointerException
+
+# Created on 2018-11-06T20:18:04.973
+	at java.util.Properties$LineReader.readLine(Properties.java:434)
+
+# Created on 2018-11-06T20:18:04.973
+	at java.util.Properties.load0(Properties.java:353)
+
+# Created on 2018-11-06T20:18:04.973
+	at java.util.Properties.load(Properties.java:341)
+
+# Created on 2018-11-06T20:18:04.989
+	at org.apache.maven.surefire.booter.SystemPropertyManager.loadProperties(SystemPropertyManager.java:50)
+
+# Created on 2018-11-06T20:18:04.989
+	at org.apache.maven.surefire.booter.BooterDeserializer.<init>(BooterDeserializer.java:58)
+
+# Created on 2018-11-06T20:18:04.989
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:100)
+

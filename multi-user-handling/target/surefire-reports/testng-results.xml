@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="171" started-at="2018-11-08T15:17:01Z" finished-at="2018-11-08T15:17:01Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="171" started-at="2018-11-08T15:17:01Z" finished-at="2018-11-08T15:17:01Z">
+      <class name="com.walmart.tests.SampleXmlIT">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.walmart.tests.SampleXmlIT@ef9296d]" name="beforeSuite" is-config="true" duration-ms="820" started-at="2018-11-08T20:47:00Z" finished-at="2018-11-08T20:47:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60b71e8f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.walmart.tests.SampleXmlIT@ef9296d]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2018-11-08T20:47:01Z" finished-at="2018-11-08T20:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.walmart.tests.SampleXmlIT@ef9296d]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2018-11-08T20:47:01Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2018-11-08T20:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.walmart.tests.SampleXmlIT@ef9296d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2018-11-08T20:47:01Z" finished-at="2018-11-08T20:47:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.walmart.tests.SampleXmlIT.sampleXml()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="sampleXml()[pri:0, instance:com.walmart.tests.SampleXmlIT@ef9296d]" name="sampleXml" duration-ms="142" started-at="2018-11-08T20:47:01Z" finished-at="2018-11-08T20:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleXml -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.walmart.tests.SampleXmlIT@ef9296d]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2018-11-08T20:47:01Z" finished-at="2018-11-08T20:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.walmart.tests.SampleXmlIT@ef9296d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-11-08T20:47:01Z" finished-at="2018-11-08T20:47:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.walmart.tests.SampleXmlIT.sampleXml()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="afterSuite(org.testng.ITestContext)[pri:0, instance:com.walmart.tests.SampleXmlIT@ef9296d]" name="afterSuite" is-config="true" duration-ms="92" started-at="2018-11-08T20:47:01Z" finished-at="2018-11-08T20:47:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@60b71e8f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.walmart.tests.SampleXmlIT -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
