@@ -1,0 +1,26 @@
+package com.naidu.springmvc.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.naidu.springmvc.dto.Employee;
+
+@Controller
+public class ObjectController {
+	
+	@RequestMapping("/readObject")
+	public ModelAndView sendObject() {
+
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("displayObject");
+		Employee employee = new Employee();
+		employee.setId(3431);
+		employee.setName("Gowrunaidu Bevara");
+		employee.setSalary(33500.00);
+
+		modelAndView.addObject("employee", employee);
+		return modelAndView;
+	}
+
+}
